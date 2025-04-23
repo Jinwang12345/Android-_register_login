@@ -40,18 +40,18 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="24dp" />
 
-            <!-- Campo: Email -->
+            <!-- Campo: Usuario -->
             <EditText
-                android:id="@+id/etLoginEmail"
+                android:id="@+id/etLoginUsername"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="Correo electrónico"
+                android:hint="Nombre de usuario"
                 android:background="@drawable/edit_text_background"
                 android:paddingHorizontal="16dp"
                 android:layout_marginBottom="16dp"
                 android:textColor="#000000"
                 android:textColorHint="#9CA3AF"
-                android:inputType="textEmailAddress" />
+                android:inputType="textPersonName" />
 
             <!-- Campo: Contraseña -->
             <EditText
